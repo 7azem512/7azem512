@@ -87,7 +87,7 @@ I’m always open to collaboration or discussing new ideas!
 Feel free to reach out:
 
 - **LinkedIn:** [linkedin.com/in/hazem-saed-36092525a](https://www.linkedin.com/in/hazem-saed-36092525a)  
-- **GitHub:** [github.com/HazemSaed](https://github.com/HazemSaed)  
+- **GitHub:** [github.com/HazemSaed](https://github.com/7azem512)  
 - **Email:** [hazemsaed512@gmail.com](mailto:hazemsaed512@gmail.com)
 
 ---
