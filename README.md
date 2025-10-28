@@ -39,7 +39,7 @@ My self-study and project-based learning provided me with strong, hands-on exper
 
 ###  Featured Projects
 
-#### 1. 🏦 BankApi (Spring Boot RESTful API)
+#### 1.  BankApi (Spring Boot RESTful API)
 **Description:**  
 A backend system that simulates a modern banking application with secure RESTful APIs for user and transaction management.  
 **Key Features:**
