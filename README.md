@@ -1,95 +1,100 @@
-# Hi, I'm Hazem Saed 
+# 👋 Hi, I'm **Hazem Saed**
 
-###  Backend Developer | Java & Spring Boot Specialist
+### 🚀 Backend Developer | Java & Spring Boot Specialist
 
-A passionate **Java Backend Developer** and a dedicated **third-year Computer Science student** with a strong foundation in **Java**, **Object-Oriented Programming (OOP)**, and **Spring Boot** development.  
-I focus on building **scalable**, **secure**, and **production-ready** backend systems using modern technologies from the **Spring Framework** ecosystem.  
+I'm a **Java Backend Developer** and a **third-year Computer Science student** passionate about designing and building **scalable, secure, and production-ready backend systems** using the **Spring Framework** ecosystem.  
 
-I’m currently seeking a **Backend Internship** or **Junior Developer** role to apply my skills in real-world environments and contribute to impactful projects.
+With a solid foundation in **Java**, **OOP**, and **system architecture**, I focus on writing clean, efficient, and maintainable code that delivers real value.  
+Currently seeking a **Backend Internship** or **Junior Developer** role to apply my hands-on experience and grow in a professional environment.
 
 ---
 
-###  Core Technical Skills
+## 🧠 Core Technical Skills
 
 | Category | Skills & Technologies |
 | :--- | :--- |
-| **Primary Language** | Java (JavaSE, JavaEE) |
-| **Frameworks** | Spring Boot 3, Spring Framework, Spring MVC, Thymeleaf, JSP, Servlets |
-| **Databases & ORM** | MySQL, H2, Spring Data JPA, Spring JDBC, SQL, ERD Design, Normalization |
-| **APIs & Web** | RESTful APIs (Build & Consume), Swagger/OpenAPI |
-| **Security** | Spring Security, JWT (JSON Web Tokens), Authentication, CSRF |
-| **Concepts** | OOP, Data Structures, Algorithms, Problem Solving, Multithreading, AOP, Design Patterns |
-| **Tools & Deployment** | IntelliJ IDEA, Postman, Maven, Git, Docker (Basic), AWS (Conceptual) |
+| 🏗️ **Primary Language** | Java (JavaSE, JavaEE) |
+| ⚙️ **Frameworks** | Spring Boot 3, Spring MVC, Spring Framework, Thymeleaf, JSP, Servlets |
+| 🗄️ **Databases & ORM** | MySQL, H2, Spring Data JPA, Spring JDBC, SQL, ERD Design, Normalization |
+| 🌐 **APIs & Web** | RESTful APIs (Build & Consume), Swagger / OpenAPI |
+| 🔒 **Security** | Spring Security, JWT (JSON Web Tokens), Authentication, CSRF |
+| 💡 **Concepts** | OOP, Data Structures, Algorithms, Problem Solving, Multithreading, AOP, Design Patterns |
+| 🧰 **Tools & Deployment** | IntelliJ IDEA, Postman, Maven, Git, Docker (Basic), AWS (Conceptual) |
 
 ---
 
-###  Spring Boot & Advanced Java Expertise
+## 🌟 Spring Boot & Advanced Java Expertise
 
-My self-study and project-based learning provided me with strong, hands-on experience across the **Spring ecosystem**, including:
+My self-learning journey and project-based experience helped me gain **deep practical understanding** of the Spring ecosystem:
 
-* **Spring Core:** Bean creation, autowiring, scopes, and configurations.  
-* **AOP:** Handling cross-cutting concerns like logging and transactions.  
-* **Spring MVC & Thymeleaf:** Dynamic and secure web applications.  
-* **Data Access:** Spring Data JPA with relationships, pagination, and custom queries.  
-* **Security:** Implemented authentication/authorization with Spring Security & JWT.  
-* **Microservices Readiness:** Profiles, Actuator, and centralized logging.  
-* **Deployment:** Conceptual experience deploying to AWS and containerizing with Docker.
+- 🧩 **Spring Core:** Bean lifecycle, dependency injection, autowiring, and configuration management.  
+- 🎯 **AOP:** Implementing cross-cutting concerns like logging and transaction management.  
+- 💻 **Spring MVC & Thymeleaf:** Developing dynamic, secure web applications.  
+- 🗃️ **Data Layer:** Advanced Spring Data JPA (relations, pagination, custom queries).  
+- 🔐 **Security:** Authentication & Authorization with **Spring Security + JWT**.  
+- ⚙️ **Microservices Readiness:** Spring Profiles, Actuator, logging, and monitoring.  
+- ☁️ **Deployment:** Conceptual experience deploying Spring Boot apps to AWS and containerizing with Docker.
 
 ---
 
-###  Featured Projects
+## 💻 Featured Projects
 
-#### 1.  BankApi (Spring Boot RESTful API)
+### 🏦 [BankApi – Spring Boot RESTful API](https://github.com/HazemSaed/BankApi)
 **Description:**  
-A backend system that simulates a modern banking application with secure RESTful APIs for user and transaction management.  
+A secure, full-featured backend system simulating modern banking operations.  
+
 **Key Features:**
-- Account Management: Create users, check balances, and verify names.  
-- Financial Transactions: Credit, Debit, and Transfers between accounts.  
-- Security: **Spring Security + JWT** token-based authentication.  
-- Reporting: Generates **PDF statements** with **iTextPDF** and sends emails via **Spring Mail**.  
-**Tech Stack:** Java, Spring Boot 3, Spring Security, JWT, Spring Data JPA, MySQL, OpenAPI (Swagger).  
-🔗 **GitHub:** [github.com/HazemSaed/BankApi](https://github.com/HazemSaed/BankApi)
+- Account creation, balance checks, and name verification.  
+- Credit, debit, and account-to-account transfers.  
+- Authentication & Authorization with **Spring Security + JWT**.  
+- PDF statement generation using **iTextPDF** + email notifications via **Spring Mail**.  
+
+**Tech Stack:** Java, Spring Boot 3, Spring Security, JWT, Spring Data JPA, MySQL, Swagger (OpenAPI).  
 
 ---
 
-#### 2.  Library Management System (Core Java & JDBC)
+### 📚 [Library Management System – Core Java & JDBC](https://github.com/HazemSaed/Library-Management-System)
 **Description:**  
-A console-based application for managing library inventory, users, and transactions.  
-**Key Features:** User management, book tracking, overdue fine calculation.  
-**Tech Stack:** Core Java, JDBC (MySQL), Collections, Streams, Multithreading.  
-🔗 **GitHub:** [github.com/HazemSaed/Library-Management-System](https://github.com/HazemSaed/Library-Management-System)
+A console-based system for managing library users, books, and transactions.  
 
----
-
-#### 3.  Task Management System (Java EE)
-**Description:**  
-A web-based system built with Servlets, JSP, and JDBC for managing user tasks and sessions.  
 **Key Features:**  
-User registration/login, personalized task lists, CRUD operations, and authentication.  
-**Tech Stack:** Java EE, Servlets, JSP, JDBC, MVC, MySQL, HTML/CSS.  
-🔗 **GitHub:** [github.com/HazemSaed/Task-Management-System](https://github.com/HazemSaed/Task-Management-System)
+- User & book management, issue/return tracking, overdue fine calculation.  
+
+**Tech Stack:** Core Java, JDBC, MySQL, Collections, Streams, Multithreading.
 
 ---
 
-###  Education & Learning
+### ✅ [Task Management System – Java EE](https://github.com/HazemSaed/Task-Management-System)
+**Description:**  
+A web-based system built with Servlets and JSP for managing users and tasks.  
 
-**B.Sc. in Computer Science (2022 – Present)**  
+**Key Features:**  
+- User registration/login with session management.  
+- CRUD operations for personal task lists.  
+- Simple MVC architecture with MySQL database.  
+
+**Tech Stack:** Java EE, Servlets, JSP, JDBC, HTML/CSS, MVC.
+
+---
+
+## 🎓 Education & Learning
+
+**🎓 B.Sc. in Computer Science (2022 – Present)**  
 *Faculty of Computer and Information, Menofia University*
 
-**Intensive Self-Study Bootcamp – Core Java**  
-Focused on advanced Core Java topics: Generics, Collections, Streams, Multithreading, and Design Patterns.
+**💻 Intensive Self-Study Bootcamp – Core Java**  
+Completed deep study of Generics, Collections, Streams, Multithreading, and Design Patterns.
 
 ---
 
-###  Get In Touch
+## 📬 Get In Touch
 
-I’m always open to collaboration or discussing new ideas!  
-Feel free to reach out:
+Let’s connect and build something impactful together!
 
-- **LinkedIn:** [linkedin.com/in/hazem-saed-36092525a](https://www.linkedin.com/in/hazem-saed-36092525a)  
-- **GitHub:** [github.com/HazemSaed](https://github.com/7azem512)  
-- **Email:** [hazemsaed512@gmail.com](mailto:hazemsaed512@gmail.com)
+- 💼 **LinkedIn:** [linkedin.com/in/hazem-saed-36092525a](https://www.linkedin.com/in/hazem-saed-36092525a)  
+- 🧑‍💻 **GitHub:** [github.com/HazemSaed](https://github.com/7azem512)  
+- ✉️ **Email:** [hazemsaed512@gmail.com](mailto:hazemsaed512@gmail.com)
 
 ---
 
- *“Code with purpose. Build with passion.”*  
+⭐ *“Code with purpose. Build with passion.”*
