@@ -1,6 +1,6 @@
-# Hi, I'm Hazem Saed 👋
+# Hi, I'm Hazem Saed 
 
-### 🚀 Backend Developer | Java & Spring Boot Specialist
+###  Backend Developer | Java & Spring Boot Specialist
 
 A passionate **Java Backend Developer** and a dedicated **third-year Computer Science student** with a strong foundation in **Java**, **Object-Oriented Programming (OOP)**, and **Spring Boot** development.  
 I focus on building **scalable**, **secure**, and **production-ready** backend systems using modern technologies from the **Spring Framework** ecosystem.  
@@ -9,7 +9,7 @@ I’m currently seeking a **Backend Internship** or **Junior Developer** role to
 
 ---
 
-### 🛠️ Core Technical Skills
+###  Core Technical Skills
 
 | Category | Skills & Technologies |
 | :--- | :--- |
@@ -23,7 +23,7 @@ I’m currently seeking a **Backend Internship** or **Junior Developer** role to
 
 ---
 
-### 🌟 Spring Boot & Advanced Java Expertise
+###  Spring Boot & Advanced Java Expertise
 
 My self-study and project-based learning provided me with strong, hands-on experience across the **Spring ecosystem**, including:
 
@@ -37,7 +37,7 @@ My self-study and project-based learning provided me with strong, hands-on exper
 
 ---
 
-### 💻 Featured Projects
+###  Featured Projects
 
 #### 1. 🏦 BankApi (Spring Boot RESTful API)
 **Description:**  
@@ -52,7 +52,7 @@ A backend system that simulates a modern banking application with secure RESTful
 
 ---
 
-#### 2. 📚 Library Management System (Core Java & JDBC)
+#### 2.  Library Management System (Core Java & JDBC)
 **Description:**  
 A console-based application for managing library inventory, users, and transactions.  
 **Key Features:** User management, book tracking, overdue fine calculation.  
@@ -61,7 +61,7 @@ A console-based application for managing library inventory, users, and transacti
 
 ---
 
-#### 3. ✅ Task Management System (Java EE)
+#### 3.  Task Management System (Java EE)
 **Description:**  
 A web-based system built with Servlets, JSP, and JDBC for managing user tasks and sessions.  
 **Key Features:**  
@@ -71,7 +71,7 @@ User registration/login, personalized task lists, CRUD operations, and authentic
 
 ---
 
-### 🎓 Education & Learning
+###  Education & Learning
 
 **B.Sc. in Computer Science (2022 – Present)**  
 *Faculty of Computer and Information, Menofia University*
@@ -81,7 +81,7 @@ Focused on advanced Core Java topics: Generics, Collections, Streams, Multithrea
 
 ---
 
-### 📬 Get In Touch
+###  Get In Touch
 
 I’m always open to collaboration or discussing new ideas!  
 Feel free to reach out:
@@ -92,4 +92,4 @@ Feel free to reach out:
 
 ---
 
-⭐ *“Code with purpose. Build with passion.”*  
+ *“Code with purpose. Build with passion.”*  
