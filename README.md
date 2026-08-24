@@ -1,242 +1,500 @@
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:2F81F7&height=180&section=header&text=Hazem%20Saed&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Java%20Backend%20Developer&descAlignY=55&descSize=18"
-    width="100%"
-  />
-</p>
+<div align="center">
 
-<p align="center">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=2F81F7&center=true&vCenter=true&width=750&lines=Junior+Java+Backend+Developer;Spring+Boot+%7C+Spring+Security+%7C+REST+APIs;PostgreSQL+%7C+Redis+%7C+Docker;Building+Secure+%26+Scalable+Backend+Systems"
-    alt="Typing SVG"
-  />
-</p>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,50:161b22,100:238636&text=HAZEM%20SAED&fontColor=ffffff&fontSize=45&fontAlignY=38&desc=Java%20Backend%20Developer&descAlignY=58&descSize=18&animation=fadeIn"/>
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/hazem-saed-36092525a">
-    <img src="https://img.shields.io/badge/LinkedIn-Hazem%20Saed-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:hazemsaed512@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-Contact%20Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  <a href="https://github.com/7azem512">
-    <img src="https://img.shields.io/badge/GitHub-7azem512-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2200&pause=700&color=3FB950&center=true&vCenter=true&repeat=true&width=760&height=70&lines=%24+whoami;Java+Backend+Developer;%24+current_stack;Spring+Boot+%7C+Spring+Security+%7C+PostgreSQL+%7C+Redis;%24+mission;Build+secure.+Build+clean.+Build+for+scale." />
+
+<br>
+
+[LinkedIn](https://www.linkedin.com/in/hazem-saed-36092525a)
+   /   
+[Email](mailto:hazemsaed512@gmail.com)
+   /   
+[Repositories](https://github.com/7azem512?tab=repositories)
+
+</div>
 
 ---
 
-## 👋 About Me
+## `> whoami`
 
-I'm **Hazem Saed**, a Computer Science graduate and **Junior Java Backend Developer** focused on building secure, scalable, and maintainable backend systems.
+```java
+public class HazemSaed {
 
-I enjoy working on the parts of software that users don't always see — authentication, APIs, databases, business logic, security, performance, and system architecture.
+    String role = "Java Backend Developer";
 
-My main stack revolves around **Java & Spring Boot**, with hands-on experience in **Spring Security, REST APIs, PostgreSQL, Redis, Docker, JWT authentication, JPA/Hibernate, WebSocket, and CI workflows**.
+    String[] mainStack = {
+        "Java",
+        "Spring Boot",
+        "Spring Security",
+        "PostgreSQL",
+        "Redis",
+        "Docker"
+    };
 
-* 🎓 B.Sc. in Computer Science — **Menoufia University, 2026**
-* 💻 Focused on **Java Backend Development**
-* 🔐 Interested in **Backend Security & Authentication Systems**
-* 🧠 Currently learning **Microservices, Spring Cloud & Cloud-Native Development**
-* 🚀 Building production-oriented projects to strengthen my backend engineering skills
-* 💼 Open to **Junior Java Backend Developer / Backend Software Engineer** opportunities
+    String[] interests = {
+        "Backend Architecture",
+        "API Security",
+        "Authentication",
+        "Databases",
+        "Distributed Systems"
+    };
 
----
-
-## 🛠️ Tech Stack
-
-### Backend
-
-<p>
-  <img src="https://skillicons.dev/icons?i=java,spring,maven" />
-</p>
-
-![Spring Boot](https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat-square\&logo=springboot\&logoColor=white)
-![Spring Security](https://img.shields.io/badge/Spring%20Security-6DB33F?style=flat-square\&logo=springsecurity\&logoColor=white)
-![Spring Data JPA](https://img.shields.io/badge/Spring%20Data%20JPA-6DB33F?style=flat-square\&logo=spring\&logoColor=white)
-![Hibernate](https://img.shields.io/badge/Hibernate-59666C?style=flat-square\&logo=hibernate\&logoColor=white)
-![REST API](https://img.shields.io/badge/REST-API-005571?style=flat-square)
-![JWT](https://img.shields.io/badge/JWT-Authentication-000000?style=flat-square\&logo=jsonwebtokens\&logoColor=white)
-![WebSocket](https://img.shields.io/badge/WebSocket-Real--Time-010101?style=flat-square)
-
-### Databases & Caching
-
-<p>
-  <img src="https://skillicons.dev/icons?i=postgres,mysql,mongodb,redis" />
-</p>
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square\&logo=postgresql\&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square\&logo=mysql\&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square\&logo=mongodb\&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square\&logo=redis\&logoColor=white)
-
-### DevOps & Tools
-
-<p>
-  <img src="https://skillicons.dev/icons?i=docker,kubernetes,git,github,postman" />
-</p>
-
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-![Docker Compose](https://img.shields.io/badge/Docker%20Compose-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square\&logo=githubactions\&logoColor=white)
-![Swagger](https://img.shields.io/badge/Swagger%20%2F%20OpenAPI-85EA2D?style=flat-square\&logo=swagger\&logoColor=black)
-![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square\&logo=postman\&logoColor=white)
-
----
-
-# 🚀 Featured Projects
-
-## 🏋️ FitLink — Fitness Platform Backend
-
-[![Repository](https://img.shields.io/badge/View%20Repository-FitLink-2F81F7?style=for-the-badge\&logo=github)](https://github.com/7azem512/FitLink)
-
-A multi-role fitness platform backend built with **Java and Spring Boot**, designed around secure authentication, role-based access, profile management, and production-oriented backend practices.
-
-### Key Highlights
-
-* 🔐 Spring Security + **JWT Access & Refresh Tokens**
-* 👥 Role-Based Access Control for **Trainee, Coach & Gym**
-* 📧 Email OTP verification & password recovery
-* 🔑 Google Sign-In integration
-* 🗄️ PostgreSQL + Spring Data JPA + Hibernate
-* ⚡ Redis integration & rate limiting
-* 📁 Secure S3-compatible file uploads
-* 🧯 Centralized exception handling
-* 📊 AOP-based logging
-* 🐳 Docker & Docker Compose
-* ⚙️ GitHub Actions CI
-* 📚 Swagger / OpenAPI documentation
-
-**Tech Stack**
-
-`Java` · `Spring Boot` · `Spring Security` · `PostgreSQL` · `Redis` · `JPA` · `Hibernate` · `Docker` · `JWT` · `OpenAPI`
-
----
-
-## 🎓 EduNest — Mentorship & Learning Platform
-
-[![Repository](https://img.shields.io/badge/View%20Repository-EduNest-2F81F7?style=for-the-badge\&logo=github)](https://github.com/7azem512/EduNest)
-
-Backend development for a mentorship and learning platform providing structured interaction between mentors and learners.
-
-### Key Highlights
-
-* 🔐 JWT Authentication & RBAC
-* ✅ Tasks & assignments
-* 🧠 Quizzes
-* 📂 Projects
-* 🏆 Certificates
-* 🔔 Notifications
-* 💬 Real-time communication using WebSocket
-* 🐳 Docker containerization
-* 📚 Swagger / OpenAPI documentation
-
-The platform includes **6+ functional areas** covering core learning and mentorship workflows.
-
-**Tech Stack**
-
-`Java` · `Spring Boot` · `Spring Security` · `REST APIs` · `WebSocket` · `Docker` · `Swagger`
-
----
-
-## 🏦 Bank API — Banking Backend
-
-[![Repository](https://img.shields.io/badge/View%20Repository-BankApi-2F81F7?style=for-the-badge\&logo=github)](https://github.com/7azem512/BankApi)
-
-A secure banking backend built to practice real-world financial API design and backend architecture.
-
-### Key Highlights
-
-* 👤 Account management
-* 💰 Balance tracking
-* 💸 Money transfers
-* 📜 Transaction history
-* 🔐 Authentication & authorization
-* ✅ Request validation
-* 🧯 Structured exception handling
-* 📄 PDF bank statement generation
-* 📧 Email notifications
-* 🧪 API testing with Postman
-* 📚 Swagger / OpenAPI documentation
-
-**Tech Stack**
-
-`Java` · `Spring Boot` · `Spring Security` · `JPA / Hibernate` · `MySQL` · `REST APIs`
-
----
-
-## 🧠 Currently Learning
-
-```text
-Microservices Architecture
-        │
-        ├── Spring Cloud
-        ├── Service Discovery
-        ├── API Gateway
-        ├── Resilience Patterns
-        ├── Distributed Configuration
-        ├── Messaging
-        ├── Docker
-        └── Kubernetes
+    String currentMission =
+        "Turning business requirements into secure and maintainable backend systems.";
+}
 ```
 
-My goal is not just to learn frameworks, but to understand **why systems are designed the way they are** and how to build backend applications that remain secure and maintainable as they grow.
+I'm a **Computer Science graduate from Menoufia University** focused on backend engineering with Java and Spring Boot.
+
+I enjoy working on the parts of software where correctness actually matters:
+
+`Authentication`
+`Authorization`
+`REST API Design`
+`Database Modeling`
+`Caching`
+`Business Logic`
+`Error Handling`
+`Security`
+`Architecture`
+
+My goal isn't just to make an endpoint return `200 OK`.
+
+I want to understand **why the system works, how it fails, and how to design it better.**
 
 ---
 
-## 📊 GitHub Analytics
+<div align="center">
 
-<p align="center">
-  <img
-    width="49%"
-    src="https://github-readme-stats.vercel.app/api?username=7azem512&show_icons=true&theme=github_dark&hide_border=true&rank_icon=github"
-  />
-  <img
-    width="49%"
-    src="https://streak-stats.demolab.com?user=7azem512&theme=github-dark-blue&hide_border=true"
-  />
-</p>
+### `SYSTEM.out.println("Building...");`
 
-<p align="center">
-  <img
-    width="95%"
-    src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=7azem512&theme=github_dark"
-  />
-</p>
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1800&pause=500&color=8B949E&center=true&vCenter=true&repeat=true&width=750&lines=Designing+REST+APIs...;Securing+endpoints...;Modeling+data...;Handling+edge+cases...;Containerizing+services...;Breaking+things...;Debugging+things...;Learning+why+they+broke..." />
+
+</div>
 
 ---
 
-## 🎯 What I'm Looking For
+# `01. Selected Work`
 
-I'm currently looking for opportunities where I can contribute as a:
+## FitLink
 
-**Junior Java Backend Developer · Backend Software Engineer · Spring Boot Developer**
+### Multi-Role Fitness Platform Backend
 
-I'm particularly interested in teams where I can work on real backend challenges involving:
+**Repository:** [github.com/7azem512/FitLink](https://github.com/7azem512/FitLink)
 
-`REST APIs` · `Security` · `Databases` · `Authentication` · `Microservices` · `Performance` · `Scalable Architecture`
+FitLink is a backend platform connecting **Trainees, Coaches, and Gyms** through secure authentication, role-based access, profile management, and production-oriented backend workflows.
+
+```text
+FITLINK
+│
+├── Identity & Access
+│   ├── Registration
+│   ├── Email OTP
+│   ├── Login
+│   ├── Password Recovery
+│   ├── Google Sign-In
+│   ├── JWT Access Token
+│   └── Refresh Token Flow
+│
+├── Security
+│   ├── Spring Security
+│   ├── BCrypt
+│   ├── RBAC
+│   ├── Rate Limiting
+│   └── Protected Resources
+│
+├── Persistence
+│   ├── PostgreSQL
+│   ├── Spring Data JPA
+│   └── Hibernate
+│
+├── Infrastructure
+│   ├── Redis
+│   ├── S3-Compatible Storage
+│   ├── Docker
+│   ├── Docker Compose
+│   └── GitHub Actions
+│
+└── Cross-Cutting
+    ├── Validation
+    ├── Centralized Exception Handling
+    ├── AOP Logging
+    └── OpenAPI / Swagger
+```
+
+<details>
+<summary><b>Read more about FitLink</b></summary>
+
+<br>
+
+The project focuses heavily on backend concerns that appear in real applications rather than basic CRUD.
+
+### Authentication
+
+Implemented multiple authentication flows including:
+
+* Email OTP verification
+* Access and refresh tokens
+* Password recovery
+* Google Sign-In
+* Role-based authorization
+* Secure password hashing
+
+### API Engineering
+
+Built REST APIs with:
+
+* Request validation
+* Standardized error responses
+* Centralized exception handling
+* Rate limiting
+* API documentation
+* Structured application logging
+
+### Infrastructure
+
+Used:
+
+`PostgreSQL · Redis · Docker · Docker Compose · GitHub Actions`
+
+</details>
 
 ---
 
-## 🤝 Let's Connect
+## EduNest
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/hazem-saed-36092525a">
-    <img src="https://img.shields.io/badge/LinkedIn-Let's%20Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
+### Mentorship & Learning Platform Backend
 
-  <a href="mailto:hazemsaed512@gmail.com">
-    <img src="https://img.shields.io/badge/Email-hazemsaed512%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
+**Repository:** [github.com/7azem512/EduNest](https://github.com/7azem512/EduNest)
+
+A Spring Boot backend designed around structured interactions between mentors and learners.
+
+```text
+EDUNEST
+│
+├── Authentication
+├── Authorization
+├── Tasks
+├── Quizzes
+├── Projects
+├── Certificates
+├── Notifications
+├── Mentor / Learner Interaction
+└── WebSocket Communication
+```
+
+The application contains **6+ functional areas** and includes JWT authentication, RBAC, REST APIs, WebSocket communication, Docker, and OpenAPI documentation.
+
+<details>
+<summary><b>Technical details</b></summary>
+
+<br>
+
+**Backend**
+
+`Java · Spring Boot · Spring Security`
+
+**Communication**
+
+`REST APIs · WebSocket`
+
+**Engineering**
+
+`JWT · RBAC · Docker · Swagger / OpenAPI`
+
+</details>
+
+---
+
+## Bank API
+
+### Banking Backend
+
+**Repository:** [github.com/7azem512/BankApi](https://github.com/7azem512/BankApi)
+
+A secure Spring Boot REST API implementing common banking operations.
+
+```text
+BANK API
+│
+├── Account Management
+├── Balance Tracking
+├── Money Transfers
+├── Transaction History
+│
+├── Security
+│   ├── Authentication
+│   └── Authorization
+│
+├── Validation
+├── Exception Handling
+├── PDF Statements
+└── Email Notifications
+```
+
+Built using:
+
+`Java · Spring Boot · Spring Security · JPA · Hibernate · MySQL`
+
+---
+
+# `02. Backend Toolbox`
+
+```yaml
+language:
+  - Java
+  - SQL
+
+backend:
+  - Spring Boot
+  - Spring MVC
+  - Spring Security
+  - Spring Data JPA
+  - Hibernate
+
+databases:
+  - PostgreSQL
+  - MySQL
+  - MongoDB
+
+cache:
+  - Redis
+
+api:
+  - REST
+  - OpenAPI
+  - Swagger
+  - WebSocket
+
+security:
+  - JWT
+  - Access / Refresh Tokens
+  - RBAC
+  - BCrypt
+  - OTP
+  - Google Sign-In
+  - Rate Limiting
+
+engineering:
+  - Clean Architecture
+  - Validation
+  - Centralized Exception Handling
+  - AOP Logging
+
+devops:
+  - Docker
+  - Docker Compose
+  - Git
+  - GitHub Actions
+  - Maven
+
+learning:
+  - Microservices
+  - Spring Cloud
+  - API Gateway
+  - Service Discovery
+  - Resilience
+  - Messaging
+  - Kubernetes
+```
+
+---
+
+# `03. How I Think About Backend`
+
+```text
+REQUEST
+   |
+   v
+VALIDATION
+   |
+   v
+AUTHENTICATION
+   |
+   v
+AUTHORIZATION
+   |
+   v
+BUSINESS RULES
+   |
+   v
+TRANSACTION
+   |
+   v
+DATABASE
+   |
+   v
+RESPONSE
+   |
+   +-------> LOGGING
+   |
+   +-------> ERROR HANDLING
+   |
+   +-------> OBSERVABILITY
+```
+
+A backend isn't just:
+
+```text
+Controller -> Service -> Repository
+```
+
+The interesting questions start after that.
+
+```text
+What happens if two requests arrive together?
+
+What happens when Redis is unavailable?
+
+What happens when a token is stolen?
+
+What happens when the database transaction fails halfway?
+
+Who owns this business rule?
+
+Should this state live in the database or cache?
+
+Can this operation safely be retried?
+
+How do I debug this at 2 AM?
+```
+
+Those are the problems I enjoy learning to solve.
+
+---
+
+# `04. Current Learning Path`
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1700&pause=450&color=58A6FF&center=true&vCenter=true&repeat=true&width=720&lines=Modular+Monolith+%3E+Domain+Boundaries;Domain+Boundaries+%3E+Microservices;Microservices+%3E+Spring+Cloud;Spring+Cloud+%3E+Service+Discovery;Gateway+%2B+Config+%2B+Resilience;Messaging+%2B+Docker+%2B+Kubernetes" />
+
+</div>
+
+```text
+Spring Boot
+     |
+     v
+Modular Monolith
+     |
+     v
+Domain Boundaries
+     |
+     v
+Microservices
+     |
+     +----------+----------+----------+
+     |          |          |          |
+     v          v          v          v
+ Discovery   Gateway     Config   Resilience
+     |          |          |          |
+     +----------+----------+----------+
+                    |
+                    v
+             Messaging / Events
+                    |
+                    v
+                  Docker
+                    |
+                    v
+               Kubernetes
+```
+
+Currently studying:
+
+**Spring Cloud · Config Server · Service Discovery · API Gateway · Resilience Patterns · Messaging · Docker · Kubernetes**
+
+---
+
+# `05. Contribution Activity`
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=7azem512&bg_color=0d1117&color=8b949e&line=3fb950&point=ffffff&area=true&area_color=238636&hide_border=true" width="100%"/>
+
+</div>
+
+---
+
+# `06. Watch My Contributions Move`
+
+<div align="center">
+
+<p>
+  My contribution graph, but slightly more alive.
 </p>
 
-<p align="center">
-  <b>Building secure backends. Learning every day. Improving with every commit.</b>
-</p>
+<img src="https://raw.githubusercontent.com/7azem512/7azem512/output/github-contribution-grid-snake-dark.svg" width="100%"/>
 
-<p align="center">
-  <img
-    src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:2F81F7&height=110&section=footer"
-    width="100%"
-  />
-</p>
+</div>
+
+---
+
+# `07. Current Status`
+
+```text
+[████████████████████░░░░] Java / Spring Boot
+
+[████████████████░░░░░░░░] Backend Security
+
+[██████████████░░░░░░░░░░] System Design
+
+[████████████░░░░░░░░░░░░] Microservices
+
+[████████░░░░░░░░░░░░░░░░] Kubernetes
+```
+
+```java
+while (true) {
+    learn();
+    build();
+    breakThings();
+    understandWhy();
+    rebuildBetter();
+}
+```
+
+---
+
+# `08. Education`
+
+**Bachelor of Science in Computer Science**
+Menoufia University
+Graduated 2026
+
+---
+
+# `09. Open To`
+
+```text
+Java Backend Developer
+Backend Software Engineer
+Spring Boot Developer
+```
+
+I'm particularly interested in working on backend systems involving:
+
+**APIs · Security · Authentication · Databases · Distributed Systems · Architecture**
+
+---
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=2500&pause=900&color=3FB950&center=true&vCenter=true&repeat=true&width=700&lines=Build+it.;Break+it.;Understand+it.;Build+it+better." />
+
+<br><br>
+
+### Hazem Saed
+
+Java Backend Developer
+
+[LinkedIn](https://www.linkedin.com/in/hazem-saed-36092525a)
+   /   
+[Email](mailto:hazemsaed512@gmail.com)
+
+<br>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=120&color=0:0d1117,50:161b22,100:238636&section=footer"/>
+
+</div>
