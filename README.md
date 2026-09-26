@@ -2,23 +2,20 @@
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:0d1117,50:161b22,100:238636&text=HAZEM%20SAED&fontColor=ffffff&fontSize=45&fontAlignY=38&desc=Java%20Backend%20Developer&descAlignY=58&descSize=18&animation=fadeIn"/>
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2200&pause=700&color=3FB950&center=true&vCenter=true&repeat=true&width=760&height=70&lines=%24+whoami;Java+Backend+Developer;%24+current_stack;Spring+Boot+%7C+Spring+Security+%7C+PostgreSQL+%7C+Redis;%24+mission;Build+secure.+Build+clean.+Build+for+scale." />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=19&duration=2200&pause=700&color=3FB950&center=true&vCenter=true&repeat=true&width=820&height=70&lines=%24+whoami;Java+Backend+Developer;%24+focus;Spring+Boot+%7C+Microservices+%7C+Distributed+Systems;%24+mission;Build+secure.+Build+reliable.+Understand+the+trade-offs." />
 
 <br>
 
-[LinkedIn](https://www.linkedin.com/in/hazem-saed-36092525a)
+LinkedIn
    /   
-[Email](mailto:hazemsaed512@gmail.com)
+Email
    /   
-[Repositories](https://github.com/7azem512?tab=repositories)
+Repositories
 
 </div>
 
----
+> whoami
 
-## `> whoami`
-
-```java
 public class HazemSaed {
 
     String role = "Java Backend Developer";
@@ -27,65 +24,238 @@ public class HazemSaed {
         "Java",
         "Spring Boot",
         "Spring Security",
+        "Spring Cloud",
         "PostgreSQL",
         "Redis",
+        "Kafka",
+        "Keycloak",
         "Docker"
     };
 
     String[] interests = {
         "Backend Architecture",
+        "Distributed Systems",
         "API Security",
-        "Authentication",
+        "Authentication & Authorization",
         "Databases",
-        "Distributed Systems"
+        "Messaging",
+        "Observability"
     };
 
     String currentMission =
-        "Turning business requirements into secure and maintainable backend systems.";
+        "Turning business requirements into secure, reliable and maintainable backend systems.";
 }
-```
 
-I'm a **Computer Science graduate from Menoufia University** focused on backend engineering with Java and Spring Boot.
+I'm a Computer Science graduate from Menoufia University focused on backend engineering with Java and Spring Boot.
 
-I enjoy working on the parts of software where correctness actually matters:
+I enjoy working on the parts of software where correctness and system behavior actually matter:
 
-`Authentication`
-`Authorization`
-`REST API Design`
-`Database Modeling`
-`Caching`
-`Business Logic`
-`Error Handling`
-`Security`
-`Architecture`
+Authentication
+Authorization
+REST API Design
+Database Modeling
+Caching
+Business Logic
+Concurrency
+Messaging
+Resilience
+Observability
+Architecture
 
-My goal isn't just to make an endpoint return `200 OK`.
+My goal isn't just to make an endpoint return 200 OK.
 
-I want to understand **why the system works, how it fails, and how to design it better.**
-
----
+I want to understand why the system works, how it fails, what trade-offs were made, and how to design it better.
 
 <div align="center">
 
-### `SYSTEM.out.println("Building...");`
+SYSTEM.out.println("Building...");
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1800&pause=500&color=8B949E&center=true&vCenter=true&repeat=true&width=750&lines=Designing+REST+APIs...;Securing+endpoints...;Modeling+data...;Handling+edge+cases...;Containerizing+services...;Breaking+things...;Debugging+things...;Learning+why+they+broke..." />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1800&pause=500&color=8B949E&center=true&vCenter=true&repeat=true&width=850&lines=Designing+REST+APIs...;Securing+distributed+systems...;Handling+concurrency...;Publishing+events...;Tracing+requests...;Breaking+things...;Debugging+things...;Learning+why+they+broke..." />
 
 </div>
 
----
+01. Selected Work
 
-# `01. Selected Work`
+EventHub
 
-## FitLink
+Microservices Event Management & Ticketing Platform
 
-### Multi-Role Fitness Platform Backend
+Repository: github.com/7azem512/EventHub
 
-**Repository:** [github.com/7azem512/FitLink](https://github.com/7azem512/FitLink)
+Release: v1.0.0
 
-FitLink is a backend platform connecting **Trainees, Coaches, and Gyms** through secure authentication, role-based access, profile management, and production-oriented backend workflows.
+EventHub is a backend-focused event management and ticketing platform built around microservices, distributed communication, booking concurrency, reliable event publishing, security, and observability.
 
-```text
+EVENTHUB
+│
+├── Business Services
+│   ├── Event Service
+│   ├── Booking Service
+│   ├── User Service
+│   ├── Media Service
+│   └── Notification Service
+│
+├── Platform
+│   ├── Spring Cloud Gateway
+│   ├── Eureka Service Discovery
+│   ├── Spring Cloud Config
+│   └── Keycloak
+│
+├── Booking & Concurrency
+│   ├── Redis Reservations
+│   ├── Reservation TTL
+│   ├── Atomic Capacity Protection
+│   └── Booking Lifecycle
+│       ├── PENDING
+│       ├── CONFIRMED
+│       ├── CANCELLED
+│       └── EXPIRED
+│
+├── Event-Driven Architecture
+│   ├── Apache Kafka
+│   ├── Transactional Outbox
+│   ├── At-Least-Once Delivery
+│   └── Idempotent Consumer
+│
+├── Reliability
+│   ├── Resilience4j Retry
+│   └── Circuit Breaker
+│
+├── Observability
+│   ├── Prometheus
+│   ├── Grafana
+│   ├── OpenTelemetry
+│   └── Tempo
+│
+└── Data & Storage
+    ├── PostgreSQL
+    ├── Flyway
+    ├── Redis
+    ├── MinIO
+    └── Cloudinary
+
+<details>
+<summary><b>Read more about EventHub</b></summary>
+
+<br>
+
+Architecture
+
+EventHub uses a database-per-service approach with an API Gateway as the public entry point.
+
+Synchronous communication is used where an immediate response is required, while Kafka is used for asynchronous booking lifecycle events.
+
+Client
+  |
+  v
+API Gateway
+  |
+  +------> Event Service
+  |
+  +------> User Service
+  |
+  +------> Media Service
+  |
+  +------> Booking Service
+  |             |
+  |             +------> Redis
+  |             |
+  |             +------> Outbox Table
+  |                         |
+  |                         v
+  |                       Kafka
+  |                         |
+  |                         v
+  +------> Notification Service
+
+Booking Flow
+
+The Booking Service validates the event, booking window, ticket type and available capacity before creating a booking.
+
+Redis is used for temporary reservations and atomic capacity protection.
+
+PENDING
+   |
+   +------> CONFIRMED
+   |
+   +------> CANCELLED
+   |
+   +------> EXPIRED
+
+Reliable Messaging
+
+Booking lifecycle changes are written to an outbox table inside the same database transaction as the booking change.
+
+A background publisher sends unpublished events to Kafka.
+
+The Notification Service consumes those events and protects itself against duplicate delivery using an idempotent consumer.
+
+Booking Service
+      |
+      v
+Transactional Outbox
+      |
+      v
+Kafka
+      |
+      v
+Notification Service
+      |
+      v
+Idempotency Check
+      |
+      v
+Notification Database
+
+Handled booking events:
+
+BOOKING_CREATED
+BOOKING_CONFIRMED
+BOOKING_CANCELLED
+BOOKING_EXPIRED
+
+Security
+
+The platform uses Keycloak with:
+
+OAuth2
+
+OpenID Connect
+
+JWT
+
+Authorization Code Flow with PKCE
+
+Role-based access control
+
+Main roles:
+
+USER
+ORGANIZER
+ADMIN
+
+Observability
+
+The project includes:
+
+Micrometer · Prometheus · Grafana · OpenTelemetry · Tempo
+
+This allows metrics collection, dashboards, and distributed tracing across service boundaries.
+
+Stack
+
+Java · Spring Boot · Spring Cloud · Spring Security · PostgreSQL · Redis · Kafka · Keycloak · Flyway · Resilience4j · Docker Compose · Prometheus · Grafana · OpenTelemetry · Tempo
+
+</details>
+
+FitLink
+
+Multi-Role Fitness Platform Backend
+
+Repository: github.com/7azem512/FitLink
+
+FitLink is a backend platform connecting Trainees, Coaches, and Gyms through secure authentication, role-based access, profile management, and production-oriented backend workflows.
+
 FITLINK
 │
 ├── Identity & Access
@@ -121,7 +291,6 @@ FITLINK
     ├── Centralized Exception Handling
     ├── AOP Logging
     └── OpenAPI / Swagger
-```
 
 <details>
 <summary><b>Read more about FitLink</b></summary>
@@ -130,47 +299,54 @@ FITLINK
 
 The project focuses heavily on backend concerns that appear in real applications rather than basic CRUD.
 
-### Authentication
+Authentication
 
 Implemented multiple authentication flows including:
 
-* Email OTP verification
-* Access and refresh tokens
-* Password recovery
-* Google Sign-In
-* Role-based authorization
-* Secure password hashing
+Email OTP verification
 
-### API Engineering
+Access and refresh tokens
+
+Password recovery
+
+Google Sign-In
+
+Role-based authorization
+
+Secure password hashing
+
+API Engineering
 
 Built REST APIs with:
 
-* Request validation
-* Standardized error responses
-* Centralized exception handling
-* Rate limiting
-* API documentation
-* Structured application logging
+Request validation
 
-### Infrastructure
+Standardized error responses
+
+Centralized exception handling
+
+Rate limiting
+
+API documentation
+
+Structured application logging
+
+Infrastructure
 
 Used:
 
-`PostgreSQL · Redis · Docker · Docker Compose · GitHub Actions`
+PostgreSQL · Redis · Docker · Docker Compose · GitHub Actions
 
 </details>
 
----
+EduNest
 
-## EduNest
+Mentorship & Learning Platform Backend
 
-### Mentorship & Learning Platform Backend
-
-**Repository:** [github.com/7azem512/EduNest](https://github.com/7azem512/EduNest)
+Repository: github.com/7azem512/EduNest
 
 A Spring Boot backend designed around structured interactions between mentors and learners.
 
-```text
 EDUNEST
 │
 ├── Authentication
@@ -182,40 +358,36 @@ EDUNEST
 ├── Notifications
 ├── Mentor / Learner Interaction
 └── WebSocket Communication
-```
 
-The application contains **6+ functional areas** and includes JWT authentication, RBAC, REST APIs, WebSocket communication, Docker, and OpenAPI documentation.
+The application contains 6+ functional areas and includes JWT authentication, RBAC, REST APIs, WebSocket communication, Docker, and OpenAPI documentation.
 
 <details>
 <summary><b>Technical details</b></summary>
 
 <br>
 
-**Backend**
+Backend
 
-`Java · Spring Boot · Spring Security`
+Java · Spring Boot · Spring Security
 
-**Communication**
+Communication
 
-`REST APIs · WebSocket`
+REST APIs · WebSocket
 
-**Engineering**
+Engineering
 
-`JWT · RBAC · Docker · Swagger / OpenAPI`
+JWT · RBAC · Docker · Swagger / OpenAPI
 
 </details>
 
----
+Bank API
 
-## Bank API
+Banking Backend
 
-### Banking Backend
-
-**Repository:** [github.com/7azem512/BankApi](https://github.com/7azem512/BankApi)
+Repository: github.com/7azem512/BankApi
 
 A secure Spring Boot REST API implementing common banking operations.
 
-```text
 BANK API
 │
 ├── Account Management
@@ -231,17 +403,13 @@ BANK API
 ├── Exception Handling
 ├── PDF Statements
 └── Email Notifications
-```
 
 Built using:
 
-`Java · Spring Boot · Spring Security · JPA · Hibernate · MySQL`
+Java · Spring Boot · Spring Security · JPA · Hibernate · MySQL
 
----
+02. Backend Toolbox
 
-# `02. Backend Toolbox`
-
-```yaml
 language:
   - Java
   - SQL
@@ -253,6 +421,19 @@ backend:
   - Spring Data JPA
   - Hibernate
 
+microservices:
+  - Spring Cloud
+  - API Gateway
+  - Eureka Service Discovery
+  - Spring Cloud Config
+  - Load-Balanced Service Communication
+
+messaging:
+  - Apache Kafka
+  - Transactional Outbox
+  - Idempotent Consumer
+  - Event-Driven Architecture
+
 databases:
   - PostgreSQL
   - MySQL
@@ -260,6 +441,8 @@ databases:
 
 cache:
   - Redis
+  - TTL Reservations
+  - Atomic Capacity Counters
 
 api:
   - REST
@@ -268,6 +451,10 @@ api:
   - WebSocket
 
 security:
+  - Spring Security
+  - Keycloak
+  - OAuth2
+  - OpenID Connect
   - JWT
   - Access / Refresh Tokens
   - RBAC
@@ -276,8 +463,25 @@ security:
   - Google Sign-In
   - Rate Limiting
 
+reliability:
+  - Resilience4j
+  - Retry
+  - Circuit Breaker
+  - At-Least-Once Delivery
+  - Idempotency
+
+observability:
+  - Micrometer
+  - Prometheus
+  - Grafana
+  - OpenTelemetry
+  - Tempo
+
 engineering:
-  - Clean Architecture
+  - Business Rule Modeling
+  - Concurrency Handling
+  - Database-per-Service
+  - Flyway Migrations
   - Validation
   - Centralized Exception Handling
   - AOP Logging
@@ -289,21 +493,15 @@ devops:
   - GitHub Actions
   - Maven
 
-learning:
-  - Microservices
-  - Spring Cloud
-  - API Gateway
-  - Service Discovery
-  - Resilience
-  - Messaging
+currently_learning:
   - Kubernetes
-```
+  - CI/CD for Microservices
+  - Production Deployment
+  - Secret Management
+  - Advanced Kafka Reliability
 
----
+03. How I Think About Backend
 
-# `03. How I Think About Backend`
-
-```text
 REQUEST
    |
    v
@@ -331,83 +529,86 @@ RESPONSE
    |
    +-------> ERROR HANDLING
    |
-   +-------> OBSERVABILITY
-```
+   +-------> METRICS
+   |
+   +-------> TRACING
 
 A backend isn't just:
 
-```text
 Controller -> Service -> Repository
-```
 
 The interesting questions start after that.
 
-```text
 What happens if two requests arrive together?
 
 What happens when Redis is unavailable?
+
+What happens when another service is down?
+
+What happens when the same Kafka message arrives twice?
 
 What happens when a token is stolen?
 
 What happens when the database transaction fails halfway?
 
+How do I avoid losing an event after committing business data?
+
 Who owns this business rule?
 
-Should this state live in the database or cache?
+Should this state live in PostgreSQL or Redis?
 
 Can this operation safely be retried?
 
+How do I trace one request across multiple services?
+
 How do I debug this at 2 AM?
-```
 
 Those are the problems I enjoy learning to solve.
 
----
-
-# `04. Current Learning Path`
+04. Current Learning Path
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1700&pause=450&color=58A6FF&center=true&vCenter=true&repeat=true&width=720&lines=Modular+Monolith+%3E+Domain+Boundaries;Domain+Boundaries+%3E+Microservices;Microservices+%3E+Spring+Cloud;Spring+Cloud+%3E+Service+Discovery;Gateway+%2B+Config+%2B+Resilience;Messaging+%2B+Docker+%2B+Kubernetes" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=1700&pause=450&color=58A6FF&center=true&vCenter=true&repeat=true&width=820&lines=Microservices+%3E+Deployment;Deployment+%3E+Kubernetes;Kubernetes+%3E+Helm;CI%2FCD+%2B+Secret+Management;Kafka+Reliability+%2B+Production+Hardening" />
 
 </div>
 
-```text
 Spring Boot
-     |
-     v
-Modular Monolith
-     |
-     v
-Domain Boundaries
      |
      v
 Microservices
      |
-     +----------+----------+----------+
-     |          |          |          |
-     v          v          v          v
- Discovery   Gateway     Config   Resilience
-     |          |          |          |
-     +----------+----------+----------+
-                    |
-                    v
-             Messaging / Events
-                    |
-                    v
-                  Docker
-                    |
-                    v
-               Kubernetes
-```
+     +------------+------------+-------------+
+     |            |            |             |
+     v            v            v             v
+ Gateway       Discovery      Config      Messaging
+     |            |            |             |
+     +------------+------------+-------------+
+                       |
+                       v
+                 Observability
+                       |
+                       v
+                Docker Compose
+                       |
+                       v
+                  Kubernetes
+                       |
+             +---------+---------+
+             |                   |
+             v                   v
+           Helm                CI/CD
+             |                   |
+             +---------+---------+
+                       |
+                       v
+              Production Hardening
 
 Currently studying:
 
-**Spring Cloud · Config Server · Service Discovery · API Gateway · Resilience Patterns · Messaging · Docker · Kubernetes**
+Kubernetes · Helm · CI/CD for Microservices · Secret Management · Production Deployment · Advanced Kafka Reliability
 
----
-
-# `05. Contribution Activity`
+05. Contribution Activity
 
 <div align="center">
 
@@ -415,9 +616,7 @@ Currently studying:
 
 </div>
 
----
-
-# `06. Watch My Contributions Move`
+06. Watch My Contributions Move
 
 <div align="center">
 
@@ -429,23 +628,20 @@ Currently studying:
 
 </div>
 
----
+07. Current Status
 
-# `07. Current Status`
+[████████████████████████░░░░] Java / Spring Boot
 
-```text
-[████████████████████░░░░] Java / Spring Boot
+[██████████████████████░░░░░░] Backend Security
 
-[████████████████░░░░░░░░] Backend Security
+[████████████████████░░░░░░░░] Microservices
 
-[██████████████░░░░░░░░░░] System Design
+[██████████████████░░░░░░░░░░] Distributed Systems
 
-[████████████░░░░░░░░░░░░] Microservices
+[████████████████░░░░░░░░░░░░] System Design
 
-[████████░░░░░░░░░░░░░░░░] Kubernetes
-```
+[████████░░░░░░░░░░░░░░░░░░░░] Kubernetes
 
-```java
 while (true) {
     learn();
     build();
@@ -453,31 +649,22 @@ while (true) {
     understandWhy();
     rebuildBetter();
 }
-```
 
----
+08. Education
 
-# `08. Education`
-
-**Bachelor of Science in Computer Science**
+Bachelor of Science in Computer Science
 Menoufia University
 Graduated 2026
 
----
+09. Open To
 
-# `09. Open To`
-
-```text
 Java Backend Developer
 Backend Software Engineer
 Spring Boot Developer
-```
 
 I'm particularly interested in working on backend systems involving:
 
-**APIs · Security · Authentication · Databases · Distributed Systems · Architecture**
-
----
+APIs · Security · Authentication · Databases · Microservices · Distributed Systems · Messaging · Architecture
 
 <div align="center">
 
@@ -485,13 +672,13 @@ I'm particularly interested in working on backend systems involving:
 
 <br><br>
 
-### Hazem Saed
+Hazem Saed
 
 Java Backend Developer
 
-[LinkedIn](https://www.linkedin.com/in/hazem-saed-36092525a)
+LinkedIn
    /   
-[Email](mailto:hazemsaed512@gmail.com)
+Email
 
 <br>
 
